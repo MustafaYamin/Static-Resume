@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Body is used as background */
+body {
+  height: 100%vh;
+  background-color: rgb(244, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Desktop font-weights */
+h1 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+p {
+  font-weight: 500;
+}
+
+.headings {
+  background-color: rgb(200, 200, 200);
+  padding-left: 1rem;
+}
+
+/* .resume is the resume page */
+.resume {
+  display: grid;
+  grid-template-columns: 1.2fr 2.5fr;
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  height: 100%;
+  width: 65vw;
+  background-color: rgb(249, 249, 249);
+}
+
+/* .info is the information section on the left side */
+.info {
+  height: inherit;
+  width: 100%;
+  background-color: rgb(200, 200, 200);
+}
+
+/* #img is the image in the information section */
+#img {
+  display: flex;
+  justify-self: center;
+  margin-top: 5rem;
+  width: 55%;
+  height: 25vh;
+  background-image: url(/m-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100rem;
+}
+
+.info-detail {
+  margin-left: 3rem;
+  padding-top: 2.5rem;
+}
+
+.skl-ul {
+  overflow: inherit;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.ski-li {
+  overflow: inherit;
+
+  padding: 1rem;
+}
+
+#skills {
+  padding-bottom: 1rem;
+}
+
+#contact {
+  padding-bottom: 2rem;
+}
+
+.contact-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.info-heading {
+  background-color: rgb(157, 155, 155);
+  padding-left: 1rem;
+}
+
+.detail {
+ 
+  width: casl(100% - 2rem);
+  height: inherit;
+  margin-left: 2rem;
+}
+
+.header {
+  height: 7rem;
+  margin-top: 3rem;
+}
+
+.main-h {
+  padding-top: 1.5rem;
+  /* margin-left: 2rem; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-p {
+  /* margin-left: 2rem; */
+  font-weight: bold;
+}
+
+.ed-li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+#education {
+  padding-bottom: 1rem;
+}
+
+.obj {
+  padding-bottom: 1rem;
+}
+.obj-txt {
+  width: 80%;
+  margin-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.experience {
+  padding-bottom: 3rem;
+}
+
+.saperator {
+  padding-bottom: 1rem;
+}
+
+.exp {
+  margin-bottom: 1rem;
+}
+
+.exp-h {
+  margin-left: 1.5rem;
+}
+
+.exp-txt {
+  margin-left: 1.5rem;
+}
+
+.exp-li {
+  width: 95%;
+  margin-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+
+
