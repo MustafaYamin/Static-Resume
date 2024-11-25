@@ -32,7 +32,8 @@ p {
 }
 
 .headings {
-  background-color: rgb(200, 200, 200);
+  background-color: #c7d8f6;
+  /* background-color: rgb(200, 200, 200); */
   padding-left: 1rem;
 }
 
@@ -47,13 +48,17 @@ p {
   height: 100%;
   width: 65vw;
   background-color: rgb(249, 249, 249);
+ 
 }
 
 /* .info is the information section on the left side */
 .info {
   height: inherit;
   width: 100%;
-  background-color: rgb(200, 200, 200);
+  background-color: #9fa7ef;
+  /* background-color: rgb(200, 200, 200); */
+  /* background-color: rgb(249, 249, 249); */
+
 }
 
 /* #img is the image in the information section */
@@ -109,7 +114,9 @@ p {
 }
 
 .info-heading {
-  background-color: rgb(157, 155, 155);
+  background-color: #c7d8f6;
+  /* background-color: rgb(200, 200, 200); */
+
   padding-left: 1rem;
 }
 
